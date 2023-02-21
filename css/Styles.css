@@ -206,21 +206,24 @@ header{
 #ubicacion{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     background-image: linear-gradient(180deg, #ffffb1 0, #ffeca7 25%, #f2d59d 50%, #dcbf93 75%, #c7ac8a 100%);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+.iframe{
+    width: 30%;
+    position: center;
 }
 
 .contenedor-ubicacion{
     margin: 0;
 }
 
-.iframe{
-   width: 150%;
-   display: block;
-}
+
 
 /* Get Your own :)*/
 
@@ -346,7 +349,7 @@ footer{
     }
 
     #ubicacion{
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -381,7 +384,7 @@ footer{
     }
 
     #ubicacion{
-        width: 80%;
+        width: 100%;
         align-items: center;
     }
     .contenedor-ubicacion{
