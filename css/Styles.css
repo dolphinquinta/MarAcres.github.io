@@ -418,6 +418,13 @@ footer{
     #ubicacion{
         width: 100%;
     }
+
+    .questions__container{
+        text-align: center;
+        width: 90%;
+        margin-left: 20px;
+    }
+
 }
 
 @media screen and (max-width:500px){
